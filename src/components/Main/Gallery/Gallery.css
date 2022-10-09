@@ -1,10 +1,10 @@
-.projects-container {
+.gallery-container {
     background: var(--main);
     height: auto;
     width: 100%;
 }
 
-.projects-title {
+.gallery-title {
     font-size: 4rem;
     color: var(--third);
     font-weight: lighter;
@@ -12,37 +12,37 @@
     z-index: 20 !important;
 }
 
-.projects-subheading {
+.gallery-subheading {
     color: var(--third);
     opacity: 0.5;
     font-weight: 1;
     padding-top: 10px;
 }
 
-.projects-heading-container {
-    margin-top: 200px;
+.gallery-heading-container {
+    margin-top: 100px;
     width: 600px;
     margin-left: 30px;
     text-align: left;
     z-index: 2 !important;
 }
 
-.projects-images-container {
+.gallery-images-container {
     position: relative;
     margin-top: 30px;
     background-color: var(--secondary);
     width: 180%;
     height: 500px;
     z-index: 2;
-    left: 200px;
+    left: -1800px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.frank-and-jenies {
+.frank-and-jenies-test {
     z-index: 10;
-    width: 480px;
+    width: 560px;
     height: auto;
     border-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
@@ -50,16 +50,6 @@
     transition: 0.5s ease;
 }
 
-.frank-and-jenies:hover {
+.frank-and-jenies-test:hover {
     scale: 103%;
-}
-
-.projects-wrapper {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--main);
-    position: absolute;
-    z-index: 0;
-    top: 100vh;
-    left: 0px;
 }
