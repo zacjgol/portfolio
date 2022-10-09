@@ -22,7 +22,7 @@ function Banner() {
 
   return (
     <div className='banner-container'>
-      <div className='banner-logo'  style={{transform: `translateY(${offsetY * 1}px)`}}>
+      <div className='banner-logo'  style={{transform: `translateY(${offsetY * 1}px)`, display: `${offsetY > 1200 ? 'none' : 'flex'}`}}>
         <h3>Hi, my name is</h3>
         <h1>Zac Fletcher</h1>
         <div className='typewriter-container'>

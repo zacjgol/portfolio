@@ -21,6 +21,7 @@ function Projects(props) {
     <div className='projects-container'>
       <div className='projects-heading-container'>
         <div className='projects-title-container'>
+          <div className='projects-wrapper'/>
           <h1 className='projects-title'>{'<Projects/>'}</h1>
         </div>
         <div className='projects-subheading-container'>
