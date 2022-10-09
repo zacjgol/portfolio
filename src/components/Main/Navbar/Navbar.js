@@ -28,9 +28,9 @@ function Navbar() {
                 </div>
                 <div className={menu_class}>
                     <ul className='navbar-menu-items'>
+                        <li>Projects</li>
                         <li>Home</li>
                         <li>Contact</li>
-                        <li>Projects</li>
                         <li>About me</li>
                     </ul>
                 </div>

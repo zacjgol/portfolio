@@ -84,5 +84,32 @@
 }
 
 .navbar-menu-items {
-    font-size: 4rem;
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-menu-items li {
+    display: inline-block;
+    padding-bottom: 3px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.navbar-menu-items li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: var(--secondary);
+    transition: width 0.25s ease-out;
+}
+
+.navbar-menu-items li:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
 }
