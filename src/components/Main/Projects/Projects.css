@@ -1,7 +1,52 @@
 .projects-container {
     background: var(--primary);
-    height: 100vh;
+    height: 200vh;
     width: 100%;
-    z-index: 50;
 }
 
+.projects-title {
+    font-size: 4rem;
+    color: var(--third);
+    font-weight: lighter;
+}
+
+.projects-subheading {
+    color: var(--third);
+    opacity: 0.5;
+    font-weight: 1;
+    padding-top: 10px;
+}
+
+.projects-heading-container {
+    margin-top: 200px;
+    width: 600px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.projects-images-container {
+    position: relative;
+    margin-top: 30px;
+    background-color: var(--secondary);
+    width: 180%;
+    height: 500px;
+    z-index: 2;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frank-and-jenies {
+    z-index: 10;
+    width: 480px;
+    height: auto;
+    border-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    margin-left: 15px;
+    transition: 0.5s ease;
+}
+
+.frank-and-jenies:hover {
+    scale: 103%;
+}
