@@ -7,23 +7,33 @@ function Navbar() {
     const [isMenuClicked, setIsMenuClicked] = useState(false)
 
     const updateMenu = () => {
-        console.log('clicked')
         if(!isMenuClicked) {
             setBurgerClass("burger-bar clicked")
-            setMenuClass("burger-menu visible")
+            setMenuClass("navbar-menu visible")
         }
         else {
             setBurgerClass("burger-bar unclicked")
-            setMenuClass("burger-menu hidden")
+            setMenuClass("navbar-menu hidden")
         }
         setIsMenuClicked(!isMenuClicked)
     }
+
     return (
-        <div className='navbar-container'>
-            <h1 className='navbar-logo'>Zac Fletcher</h1>
-            <div className="burger" onClick={updateMenu}>
-                <div className={`${burger_class} first`} ></div>
-                <div className={burger_class} ></div>
+        <div className='navbar-wrapper'>
+            <div className='navbar-container'>
+                <h1 className='navbar-logo'>Zac Fletcher</h1>
+                <div className="burger" onClick={updateMenu}>
+                    <div className={`${burger_class} first`} ></div>
+                    <div className={burger_class} ></div>
+                </div>
+                <div className={menu_class}>
+                    <ul className='navbar-menu-items'>
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>Projects</li>
+                        <li>About me</li>
+                    </ul>
+                </div>
             </div>
         </div>
   )

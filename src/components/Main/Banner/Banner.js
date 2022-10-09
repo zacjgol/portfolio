@@ -8,7 +8,6 @@ import rightTrees from './banner-images/mountain-trees-right.png'
 import leftTrees from './banner-images/mountain-trees-left.png'
 import Stars from './banner-images/Stars.png'
 import {Typewriter} from 'react-simple-typewriter'
-import Navbar from '../Navbar/Navbar'
 
 function Banner() {
   const [offsetY, setOffsetY] = useState(0)
@@ -23,7 +22,6 @@ function Banner() {
 
   return (
     <div className='banner-container'>
-      <Navbar/>
       <div className='banner-logo'  style={{transform: `translateY(${offsetY * 1}px)`}}>
         <h3>Hi, my name is</h3>
         <h1>Zac Fletcher</h1>
