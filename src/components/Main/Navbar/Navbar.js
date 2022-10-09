@@ -5,6 +5,18 @@ function Navbar(props) {
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("burger-menu hidden")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
+    const [offsetY, setOffsetY] = useState(0)
+
+    const handleScroll = () => {
+        console.log(offsetY)
+        setOffsetY(window.pageYOffset)}
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+        window.removeEventListener('scroll', handleScroll)
+        }
+    }, []);
 
     const updateMenu = () => {
         if(!isMenuClicked) {
@@ -19,7 +31,7 @@ function Navbar(props) {
     }
 
     return (
-         <div className='navbar-container'>
+         <div className='navbar-container' style={{ background: `${offsetY > 950 ? '#020d19': 'none'}` }}>
             <h1 className='navbar-logo'>Zac Fletcher</h1>
             <div className="burger" onClick={updateMenu}>
                 <div className={`${burger_class} first`} ></div>

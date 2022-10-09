@@ -27,7 +27,7 @@ function Banner() {
         <h1>Zac Fletcher</h1>
         <div className='typewriter-container'>
           <h2 className='typewriter-heading'>I'm a</h2>
-          <span style={{color: '#DE3344', fontSize: '3.2rem'}} className='typewriter'>
+          <span style={{color: '#DE483F', fontSize: '3.2rem'}} className='typewriter'>
             <Typewriter
               loop
               cursor
