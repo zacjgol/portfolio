@@ -1,0 +1,47 @@
+.navbar-container {
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    font-weight: lighter;
+    font-size: 2.7rem;
+    padding-left: 30px;
+}
+
+/* burger */
+
+.burger-bar {
+    width: 5em;
+    height: 0.6em;
+    background-color: #E8F1F2;
+    border-radius: 0.5em;
+}
+
+.first { 
+    margin-bottom: 20px;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: rotate(135deg) translate(-0.1em, 0.8em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}

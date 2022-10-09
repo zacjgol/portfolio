@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+:root {
+    --main: #020d19;
+    --secondary: #DE3344;
+    --third: #fff;
+}
+
+.app-container {
+    background-color: var(--main);
+    font-family: 'Outfit', sans-serif;
+}
