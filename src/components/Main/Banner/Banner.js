@@ -35,7 +35,7 @@ function Banner() {
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={1000}
-              words={['Developer', 'UI/UX Designer', 'Freelancer']}
+              words={['Developer With Taste', 'skilled UI/UX Designer', 'Developer']}
             />
           </span>
         </div>
