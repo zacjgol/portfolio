@@ -24,10 +24,11 @@ function About() {
 
      return (
         <div className='about-container'>
+            <div className='about-wrapper'/>
             <div className='about-content'>
                 <h1 className='about-header' data-aos='fade-up'>What I do</h1>
-                <p className='about-text' data-aos='fade-up'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum voluptate velit esse cillum</p>
-            </div>
+                <p className='about-text' data-aos='fade-up'>I offer bespoke solutions to unique problems with my large and ever growing knowledge of front-end development and will put quality over all to make sure my clients have the best website for their small bussiness or portfolio</p>
+            </div> 
             <div className='about-image-container'>
                 <img src={AboutImage} alt='picture of a laptop' className={ offsetY > 600 ? 'about-image active' : 'about-image'}/>
                 {/* <img src={AboutImage} alt='picture of a laptop' className={ offsetY > 600 ? 'about-image active' : 'about-image'} style={{ width: {offsetY > 500 && offsetY < 800 ? `${offsetY*0.1}px` : '100%'}}}/> */}

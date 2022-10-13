@@ -28,9 +28,10 @@
 .about-image-container {
     background-color: #13293D;
     width: 40%;
-    height: 70%;
+    height: auto;
     overflow: visible;
     margin-right: 3%;
+    z-index: 3;
 }
 
 .about-text {
@@ -52,4 +53,12 @@
     font-size: 6rem;
     font-weight: lighter;
     padding-bottom: 20px;
+}
+
+.about-wrapper {
+    position: absolute;
+    background-color: var(--main);
+    height: 100%;
+    width: 100%;
+    top: 100vh;
 }
