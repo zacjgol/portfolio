@@ -20,6 +20,8 @@ function Banner() {
     }
   }, []);
 
+  
+
   return (
     <div className='banner-container'>
       <div className='banner-logo'  style={{transform: `translateY(${offsetY * 1}px)`, display: `${offsetY > 1200 ? 'none' : 'flex'}`}}>
@@ -41,13 +43,13 @@ function Banner() {
         </div>
       </div>
       <div className='banner-images'>
-        <img src={Stars} alt='cartoon mountain on the back left side of the screen' className='Stars' style={{transform: `translateX(${offsetY * 0.6}px)`}} />
+        <img src={Stars} alt='starts' className='Stars' style={{transform: `translateX(${offsetY * 0.6}px)`}} />
         <img src={leftBack} alt='cartoon mountain on the back left side of the screen' className='left-mountain-back' style={{transform: `translateY(${offsetY * 0.6}px)`}} />
-        <img src={rightBack} alt='cartoon mountain on the back left side of the screen' className='right-mountain-back' style={{transform: `translateY(${offsetY * 0.6}px)`}}/>
-        <img src={leftFront} alt='cartoon mountain on the back left side of the screen' className='left-mountain-front' style={{transform: `translateY(${offsetY * 0.4}px)`}}/>
-        <img src={rightFront} alt='cartoon mountain on the back left side of the screen' className='right-mountain-front' style={{transform: `translateY(${offsetY * 0.4}px)`}}/>
-        <img src={leftTrees} alt='cartoon mountain on the back left side of the screen' className='mountain-trees-left'/>
-        <img src={rightTrees} alt='cartoon mountain on the back left side of the screen' className='mountain-trees-right'/>
+        <img src={rightBack} alt='cartoon mountain on the back right side of the screen' className='right-mountain-back' style={{transform: `translateY(${offsetY * 0.6}px)`}}/>
+        <img src={leftFront} alt='cartoon mountain on the front left side of the screen' className='left-mountain-front' style={{transform: `translateY(${offsetY * 0.4}px)`}}/>
+        <img src={rightFront} alt='cartoon mountain on the front right side of the screen' className='right-mountain-front' style={{transform: `translateY(${offsetY * 0.4}px)`}}/>
+        <img src={leftTrees} alt='cartoon hills on the left side of the screen' className='mountain-trees-left'/>
+        <img src={rightTrees} alt='cartoon hills on the right side of the screen' className='mountain-trees-right'/>
       </div>
     </div>
   )
