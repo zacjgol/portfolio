@@ -115,3 +115,208 @@
     margin-top: 0px;
     margin-right: 14px;
 }
+
+@media only screen and (max-width: 1800px) {
+    .left-mountain-back,
+    .right-mountain-back,
+    .left-mountain-front,
+    .right-mountain-front,
+    .mountain-trees-left,
+    .mountain-trees-right {
+        width: 110%;
+    }
+
+    .left-mountain-back,
+    .right-mountain-back,
+    .left-mountain-front,
+    .right-mountain-front {
+        height: 80%;
+    }
+
+    .Stars {
+        max-width: 500%;
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .banner-logo h1 {
+        font-size: 5rem !important;
+    }
+    .banner-logo h2 {
+        font-size: 2.5rem;
+    }
+
+    .banner-logo h3 {
+        font-size: 2rem;
+    }
+
+    .typewriter {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .banner-logo {
+        left: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .left-mountain-back,
+    .right-mountain-back,
+    .left-mountain-front,
+    .right-mountain-front {
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .banner-logo h1 {
+        font-size: 4rem !important;
+    }
+    .banner-logo h2 {
+        font-size: 2.2rem;
+    }
+
+    .banner-logo h3 {
+        font-size: 1.7rem;
+    }
+
+    .typewriter {
+        font-size: 2.2rem !important;
+    }
+
+    .navbar-logo {
+        font-size: 2.3rem !important;
+        width: auto !important;
+    }
+
+    .Stars {
+        max-width: 500%;
+        right: -150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .banner-logo h1 {
+        font-size: 3.9rem !important;
+    }
+    .banner-logo h2 {
+        font-size: 2rem;
+    }
+
+    .banner-logo h3 {
+        font-size: 1.7rem;
+    }
+
+    .typewriter {
+        font-size: 2rem !important;
+    }
+
+    .banner-logo {
+        left: 24% !important;
+    }
+
+    .left-mountain-back,
+    .right-mountain-back,
+    .left-mountain-front,
+    .right-mountain-front {
+        height: 50%;
+        width: 125%;
+    }
+
+    .Stars img {
+        width: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-logo h1 {
+        font-size: 3.2rem !important;
+    }
+    .banner-logo h2 {
+        font-size: 1.4rem;
+    }
+
+    .banner-logo h3 {
+        font-size: 1.2rem;
+    }
+
+    .typewriter {
+        font-size: 1.4rem !important;
+    }
+
+    .banner-logo {
+        left: 22% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner-logo {
+        left: 18% !important;
+    }
+
+    .navbar-logo {
+        font-size: 2rem !important;
+        width: auto !important;
+    }
+
+    .typewriter {
+        width: 255px;
+    }
+
+    .navbar-menu-items {
+        font-size: 3rem !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 460px) {
+    .banner-logo {
+        left: 12% !important; 
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .banner-logo {
+        left: 13% !important;
+    }
+    .navbar-logo {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .banner-logo {
+        left: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .banner-logo {
+        left: 8% !important;
+    }
+
+    .banner-logo h1 {
+        font-size: 2.7rem !important;
+    }
+    .banner-logo h2 {
+        font-size: 1.2rem;
+        width: 47px !important;
+        margin-right: 5px;
+    }
+
+    .banner-logo h3 {
+        font-size: 1rem;
+    }
+
+    .typewriter {
+        font-size: 1.2rem !important;
+    
+    }
+
+}
+

@@ -1,11 +1,14 @@
 .about-container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    overflow-y: visible;
+    padding-top: 130px;
 }
 
 .about-container h1,
@@ -32,10 +35,12 @@
     overflow: visible;
     margin-right: 3%;
     z-index: 3;
+    width: clamp(500px, 45%, 1000px);
 }
 
 .about-text {
     line-height: 40px;
+    font-size: 1.5rem;
 }
 
 .about-image {
@@ -50,7 +55,7 @@
 }
 
 .about-header {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: lighter;
     padding-bottom: 20px;
 }
@@ -61,4 +66,59 @@
     height: 100%;
     width: 100%;
     top: 100vh;
+}
+
+@media only screen and (max-width: 1350px) {
+    .about-text {
+        font-size: 1.3rem !important;
+        line-height: 30px;
+    }
+
+    .about-header {
+        font-size: 4rem;
+        margin-top: 90px;
+    }
+
+    .about-container {
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .about-content {
+        width: 55%;
+    }
+
+    .about-image-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 965px) {
+    .about-content {
+        width: 80%;
+    }
+
+    .about-image-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .about-text {
+        font-size: 1rem !important;
+    }
+    .about-header {
+        font-size: 3rem;
+    }
+
+    .active {
+        transform: translate(20px, -20px) !important;
+    }
 }
